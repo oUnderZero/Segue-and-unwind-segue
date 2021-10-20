@@ -17,7 +17,7 @@ class ResultadoViewController: UIViewController {
     }
     
     
-    @IBAction func backToATapped(_ sender: Any) {
+    @IBAction func VolverAHome(_ sender: Any) {
         performSegue(withIdentifier: "unwind", sender: self)
     }
     @IBAction func volverbtn(_ sender: UIButton) {
