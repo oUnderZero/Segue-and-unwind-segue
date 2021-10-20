@@ -118,13 +118,13 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" backgroundImage="homekit" catalog="system"/>
                                 <connections>
-                                    <action selector="backToATapped:" destination="4kS-zo-VVk" eventType="touchUpInside" id="tJu-uX-odL"/>
+                                    <action selector="VolverAHome:" destination="4kS-zo-VVk" eventType="touchUpInside" id="IpR-xR-apV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ma3-iy-yDy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ma3-iy-yDy">
                                 <rect key="frame" x="64" y="298" width="286" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
