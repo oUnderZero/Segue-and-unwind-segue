@@ -8,15 +8,17 @@
 import UIKit
 
 class ResultadoViewController: UIViewController {
-
+    var restultado: String?
+    @IBOutlet weak var resultadolbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        resultadolbl.text = restultado
         // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func homebtn(_ sender: UIButton) {
+    
+    @IBAction func backToATapped(_ sender: Any) {
+        performSegue(withIdentifier: "unwind", sender: self)
     }
     @IBAction func volverbtn(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
